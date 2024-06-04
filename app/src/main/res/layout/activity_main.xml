@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3A3D4A"
+    >
+
+    <TextView
+        android:id="@+id/tv_resultat"
+        android:layout_width="match_parent"
+        android:layout_height="302dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/view_vertical_margin"
+        android:layout_weight="1"
+        android:background="@android:color/background_dark"
+        android:gravity="top"
+        android:text="@string/resultat"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="14dp"
+        android:typeface="monospace" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:layout_marginTop="@dimen/view_vertical_margin"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/et_op1"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:hint="@string/op_1"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorAccent"
+            android:typeface="monospace"
+            android:textSize="18sp"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_marginRight="@dimen/view_horizontal_margin"
+            android:layout_marginLeft="@dimen/view_horizontal_margin"
+ />
+
+
+        <EditText
+            android:id="@+id/et_op2"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:hint="@string/op_2"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorAccent"
+            android:typeface="monospace"
+            android:textSize="18sp"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_marginRight="@dimen/view_horizontal_margin"
+ />
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
